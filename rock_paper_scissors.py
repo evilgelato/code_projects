@@ -71,7 +71,7 @@ else:
 #     print('Scissors ties with Scissors')
 # else:
 #     print('The code be funnny again')
-
+###
 
 
 #outcome of the match
