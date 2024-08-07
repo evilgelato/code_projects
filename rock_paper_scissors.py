@@ -50,6 +50,7 @@ elif computer_choice == 2:
 else:
     print('The code be funnny')
 
+#outcome of the match
 if computer_choice == 0 and int(user_input1) == 0:
     print('Rock ties with Rock')
 elif computer_choice == 0 and int(user_input1) == 1:
@@ -72,6 +73,7 @@ else:
     print('The code be funnny again')
 
 
+#alternate outcome of the match
 
 # if computer_choice == 0:
 #     if int(user_input1) == 0:
@@ -96,7 +98,6 @@ else:
 #         print('Scissors ties with Scissors')
 
 
-#outcome of the match
 
 
 
