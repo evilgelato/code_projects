@@ -1,0 +1,7 @@
+
+
+message = input('Type a message to encode')
+
+
+
+
