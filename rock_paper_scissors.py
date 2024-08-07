@@ -1,6 +1,6 @@
 
-import math 
-
+import random
+import math
 
 
 #logic for selection of rock paper scissors and output of the user selection
@@ -39,9 +39,61 @@ while count == 0:
 #randomization of the choice of the computer
 
 
+computer_choice = random.randint(0,2)
+
+if computer_choice == 0:
+    print('The computer has chosen Rock.')
+elif computer_choice == 1:
+    print('The computer has chosen Paper.')
+elif computer_choice == 2:
+    print('The computer has chosen Scissors.')
+else:
+    print('The code be funnny')
+
+if computer_choice == 0 and int(user_input1) == 0:
+    print('Rock ties with Rock')
+elif computer_choice == 0 and int(user_input1) == 1:
+    print('Paper beats Rock. /n You Win!!')
+elif computer_choice == 0 and int(user_input1) == 2:
+    print('Rock beats Scissors. /n You Lose!!')
+elif computer_choice == 1 and int(user_input1) == 0:
+    print('Paper beats Rock. /n You Lose!!')
+elif computer_choice == 1 and int(user_input1) == 1:
+    print('Paper ties with Paper')
+elif computer_choice == 1 and int(user_input1) == 2:
+    print('Scissors beats Paper. /n You Win!!')
+elif computer_choice == 2 and int(user_input1) == 0:
+    print('Rock beats Scissors. /n You Win!!')
+elif computer_choice == 2 and int(user_input1) == 1:
+    print('Scissors beats Paper. /n You Lose!!')
+elif computer_choice == 2 and int(user_input1) == 2:
+    print('Scissors ties with Scissors')
+else:
+    print('The code be funnny again')
 
 
 
+# if computer_choice == 0:
+#     if int(user_input1) == 0:
+#         print('Rock ties with Rock')
+#     elif int(user_input1) == 1:
+#         print('Paper beats Rock. You Win!!')
+#     elif int(user_input1) == 2:
+#         print('Rock beats Scissors. You Lose!!')
+# elif computer_choice == 1:
+#     if int(user_input1) == 0:
+#         print('Paper beats Rock. You Lose!!')
+#     elif int(user_input1) == 1:
+#         print('Paper ties with Paper')
+#     elif int(user_input1) == 2:
+#         print('Scissors beats Paper. You Win!!')
+# elif computer_choice == 2:
+#     if int(user_input1) == 0:
+#         print('Rock beats Scissors. You Win!!')
+#     elif int(user_input1) == 1:
+#         print('Scissors beats Paper. You Lose!!')
+#     elif int(user_input1) == 2:
+#         print('Scissors ties with Scissors')
 
 
 #outcome of the match
