@@ -3,3 +3,12 @@
 x = 1
 #test
 
+given_name = input('What is your name')
+
+def greet(name):
+    print(f'This is a greeting for you {name}.')
+    print('Welcome and have a good time.')
+    print(f'Now Get out {name}.')
+
+greet(given_name)
+
